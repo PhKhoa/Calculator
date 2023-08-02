@@ -2,3 +2,11 @@
 *{
     font-family: sans-serif;
 }
+
+body {
+    height: 100vh;
+    //background: rgb(222,52,232);
+    background: linear-gradient(0deg, rgba(222,52,232,1) 0%, rgba(72,119,246,1) 100%);
+    margin: 0;
+    padding: 0;
+}
