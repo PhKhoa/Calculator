@@ -1,0 +1,145 @@
+<div class="form-container">
+    <form action="#" name="form" class="calc-form">
+      <div class="output">
+        <!-- <input type="text" name="answer" id="calc" placeholder="0"/> -->
+        <!-- <input type="text" name="answer" id="calc" placeholder="0"/> -->
+        <div class="key">
+          <p >{{calculator.firstNumber}}</p>
+          <div class="calculate">
+            <p >{{calculator.secondNumber}}</p>
+            <p >{{calculator.result}}</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="buttons-container">
+        <input
+          type="button"
+          id="del"
+          value="DEL"
+          class="btn"
+          (click)="delNumber()"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="+/-"
+          (click)="inputNumber('+/-')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="%"
+          (click)="inputNumber('%')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="/"
+          (click)="inputNumber('/')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="1"
+          (click)="inputNumber('1')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="2"
+          (click)="inputNumber('2')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="3"
+          (click)="inputNumber('3')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="+"
+          (click)="inputNumber('+')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="4"
+          (click)="inputNumber('4')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="5"
+          (click)="inputNumber('5')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="6"
+          (click)="inputNumber('6')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="-"
+          (click)="inputNumber('-')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="7"
+          (click)="inputNumber('7')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="8"
+          (click)="inputNumber('8')"
+          
+        />
+        <input
+          type="button"
+          class="btn"
+          value="9"
+          (click)="inputNumber('9')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="*"
+          (click)="inputNumber('*')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="0"
+          (click)="inputNumber('0')"
+        />
+        <input
+          type="button"
+          class="btn"
+          value="."
+          (click)="inputNumber('.')"
+        />
+        <input
+          type="button"
+          value="C"
+          id="clear"
+          class="btn"
+          (click)="clear()"
+        />
+        <input
+          type="button"
+          value="="
+          id="equal"
+          class="btn"
+          (click)="getAnswer()"
+        />
+      </div>
+    </form>
+</div>
+
+<!-- BUY ME A COFFEE AND HELP SUPPORT OPEN-SOURCE RESOURCES -->
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="programmingfans" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
