@@ -3,12 +3,21 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  h1{
+    
+    display: flex;
+    justify-content: center;
+    // margin: 0 auto;
+    margin-bottom: 10px;
+  }
   
   body {
     min-height: 100vh;
     background-color: #ececec;
     padding: 50px 20px;
     text-align: center;
+    // justify-content: center;
   }
   .form-container {
     width: 100%;
@@ -17,6 +26,7 @@
     background-color: #111;
     border-radius: 0.5rem;
     padding: 0.75rem;
+
   }
   .output {
       width: 100%;

@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { StoreModule } from '@ngrx/store';
+import { calculatorReducer } from './ngrs/reducers/calcultor.reducer';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,7 @@ import { StoreModule } from '@ngrx/store';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot({result : calculatorReducer}, {})
   ],
   providers: [],
   bootstrap: [AppComponent]
